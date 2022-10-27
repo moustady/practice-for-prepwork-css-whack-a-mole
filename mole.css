@@ -1,7 +1,31 @@
 /* Your code here */
+.wgs {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 482px;
+  width: 640px;
+}
 
-
-
+.wgs__mole-head{
+  position:absolute;
+  height: 356px; ;
+  width: 376px; ;
+  left: 109px;
+}
+.wgs__dirt-pile{
+  position:absolute;
+  height: 220px; ;
+  width: 640px;
+  top: 262px;
+}
+.wgs__mole-head--hidden{
+  position:absolute;
+  margin-top: 490px;
+  height: 356px; ;
+  width: 376px; ;
+  left: 109px;
+}
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
   background-color: cornflowerblue;
